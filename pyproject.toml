@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "compile-biggan"
+version = "0.1.0"
+description = ""
+authors = ["kureta <skureta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scipy = "^1.11.4"
+nltk = "^3.8.1"
+pillow = "^10.1.0"
+pytorch-pretrained-biggan = "^0.1.1"
+labml-nn = "^0.4.136"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
